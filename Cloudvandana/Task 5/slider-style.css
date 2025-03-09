@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #dfe4ea;
+}
+
+.carousel {
+    text-align: center;
+}
+
+#currentImage {
+    width: 450px;
+    height: 250px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+
+.control1 button {
+    padding: 8px 15px;
+    margin: 10px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
